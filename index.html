@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy & Terms — Mary-Louise Howell</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #F7F5F2;
+      --ink: #1A1A18;
+      --muted: #6B6860;
+      --rule: #D9D6D0;
+      --accent: #2E5BFF;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+      padding: 4rem 1.5rem 6rem;
+    }
+
+    .wrap {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 3.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .site-name {
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1.25rem;
+    }
+
+    .site-name a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .site-name a:hover {
+      color: var(--accent);
+    }
+
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      font-weight: 400;
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+    }
+
+    h1 em {
+      font-style: italic;
+      color: var(--muted);
+    }
+
+    .meta {
+      margin-top: 0.75rem;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    nav {
+      display: flex;
+      gap: 1.5rem;
+      margin-bottom: 3.5rem;
+    }
+
+    nav a {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--muted);
+      text-decoration: none;
+      padding-bottom: 2px;
+      border-bottom: 1px solid transparent;
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    nav a:hover {
+      color: var(--ink);
+      border-color: var(--ink);
+    }
+
+    section {
+      margin-bottom: 3.5rem;
+    }
+
+    section + section {
+      padding-top: 3rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    .section-label {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 1.25rem;
+      line-height: 1.25;
+    }
+
+    h3 {
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      margin: 1.75rem 0 0.5rem;
+      color: var(--ink);
+    }
+
+    p {
+      color: #3D3C39;
+      margin-bottom: 0.85rem;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--rule);
+      font-size: 12px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="site-name"><a href="https://mary-louise.com">mary-louise.com</a></p>
+      <h1>Privacy <em>&</em> Terms</h1>
+      <p class="meta">Last updated June 9, 2025</p>
+    </header>
+
+    <nav>
+      <a href="#privacy">Privacy Policy</a>
+      <a href="#terms">Terms of Service</a>
+    </nav>
+
+    <section id="privacy">
+      <p class="section-label">01 — Privacy Policy</p>
+      <h2>How your data is used</h2>
+      <p>This policy applies to personal applications built and operated by Mary-Louise Howell, including tools that access Oura ring data via the Oura API.</p>
+
+      <h3>What data is collected</h3>
+      <p>These applications may access health and activity data from your Oura ring, including heart rate, sleep sessions, daily summaries, workout data, stress scores, SpO2 readings, and ring configuration. This data is accessed only with your explicit authorization through Oura's OAuth flow.</p>
+
+      <h3>How data is used</h3>
+      <p>Your data is used solely to provide the features of the application — for example, visualizing training patterns or correlating cycle data with athletic performance. It is never sold, shared with third parties, or used for advertising purposes.</p>
+
+      <h3>Data storage</h3>
+      <p>Data may be stored locally in your browser or on a personal server for the purpose of rendering the application. No data is retained beyond what is necessary to operate the app. You can revoke access at any time via your Oura account settings.</p>
+
+      <h3>Third-party services</h3>
+      <p>These applications connect to the Oura API. Use of Oura's services is subject to <a href="https://ouraring.com/privacy-policy" target="_blank">Oura's own Privacy Policy</a>.</p>
+
+      <h3>Contact</h3>
+      <p>Questions about privacy can be directed to <a href="mailto:marylouisehowell@gmail.com">marylouisehowell@gmail.com</a>.</p>
+    </section>
+
+    <section id="terms">
+      <p class="section-label">02 — Terms of Service</p>
+      <h2>Terms of use</h2>
+      <p>These terms apply to personal applications built and operated by Mary-Louise Howell.</p>
+
+      <h3>Use of the application</h3>
+      <p>These applications are provided for personal, non-commercial use. By using them, you agree not to misuse or attempt to reverse-engineer any part of the software.</p>
+
+      <h3>Health data disclaimer</h3>
+      <p>These applications display data from your Oura ring for informational purposes only. Nothing presented should be construed as medical advice. Always consult a qualified health professional for medical decisions.</p>
+
+      <h3>No warranties</h3>
+      <p>These applications are provided as-is, without any warranties of any kind. Availability and accuracy of data depends on the Oura API and is not guaranteed.</p>
+
+      <h3>Changes</h3>
+      <p>These terms may be updated from time to time. Continued use of the application constitutes acceptance of the updated terms.</p>
+
+      <h3>Contact</h3>
+      <p>Questions can be directed to <a href="mailto:marylouisehowell@gmail.com">marylouisehowell@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+      <span>© 2025 Mary-Louise Howell</span>
+      <span><a href="https://mary-louise.com">mary-louise.com</a></span>
+    </footer>
+  </div>
+</body>
+</html>
